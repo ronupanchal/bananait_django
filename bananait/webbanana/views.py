@@ -35,3 +35,6 @@ def testimonial(request):
     contacts = TblContact.objects.all()
     testimonials = TblTestimonial.objects.all()
     return render(request, 'testimonial.html', {'contacts': contacts, 'testimonials': testimonials })    
+
+def service(request):
+    return render(request, 'service.html')    

@@ -82,3 +82,10 @@ class TblTestimonial(models.Model):
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
         return "%s" %(self.title)       
+
+
+# Enquiry -> name, email, mobileno, subject(default: Enquiry for Web Solution)
+# ContactUs -> name, email, mobileno, servicename, budget if, project details
+# Potfolio -> title, potfolioimage, navigatelink, description
+# Blog -> 
+# Events -> eventname, eventimage(multiple), created
