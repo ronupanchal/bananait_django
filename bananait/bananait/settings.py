@@ -24,7 +24,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 #SECRET_KEY = '(5hk)dp)bjd5bn6a*c9bc3&e)oz@_4%f2_o8n468bpvbix4w%r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["bananait.herokuapp.com","localhost"]
 #ALLOWED_HOSTS = []
